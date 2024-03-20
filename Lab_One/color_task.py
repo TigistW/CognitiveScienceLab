@@ -14,7 +14,6 @@ def test():
     correct = 0
     
     print("Welcome to the color game!!!")
-    
     for i in range(num_trial):
         word = random.choice(colors)
         ink_color = random.choice(colors)
