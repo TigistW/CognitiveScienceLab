@@ -8,8 +8,7 @@ COLOR_END = '\033[0m'
 
 def test():
     color_shades = [COLOR_RED, COLOR_GREEN, COLOR_YELLOW, COLOR_BLUE]
-    colors = ['RED', 'GREEN', 'YELLOW', 'BLUE']
-    
+    colors = ['RED', 'GREEN', 'YELLOW', 'BLUE']  
     num_trial = 5
     correct = 0
     

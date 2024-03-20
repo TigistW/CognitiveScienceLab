@@ -25,7 +25,6 @@ def arrow_task():
             continue
 
         if user_input == diction[test_line[len(test_line) // 2]]:
-            
             print("Your answer was correct")
             print()
             correct += 1
@@ -35,6 +34,5 @@ def arrow_task():
             
     print(f"You answered {correct} / {num_trials}")
             
-
 if __name__ == "__main__":
     arrow_task()
